@@ -3,9 +3,9 @@ import {studies, experiences} from "../data/resume"
 function Resume() {
   return (
     <div>
-      <h1></h1>
+      <h1>Curriculum</h1>
 
-      <h2></h2>
+      <h2>Experiencia</h2>
       {experiences.map(exp => (
         <div key={exp.id}>
           <h3>{exp.title}</h3>
@@ -15,7 +15,7 @@ function Resume() {
 
       ))}
 
-      <h2></h2>
+      <h2>Educación</h2>
        {studies.map(study => (
         <div key={study.id}>
           <h3>{study.title}</h3>
