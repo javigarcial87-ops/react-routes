@@ -5,11 +5,14 @@ import Resume from "./pages/Resume";
 
 function App() {
     return (
+      <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/projects" element={<Projects />}/>
         <Route path="/resume" element={<Resume />}/>
-      </Routes>  
+      </Routes>
+      </>  
     )
     
 }
